@@ -1,0 +1,134 @@
+$color-dark:#000000DE;
+$color-grey: #70757a;
+
+$m-1:.8em;
+$m-2: 1.6em;
+$m-3: 2.4em;
+$m-4: 3.2em;
+$m-5: 4em;
+$m-6: 4.8em;
+$m-7: 5.6em;
+$m-8: 6.4em;
+$m-9: 7.2em;
+$m-10: 8em;
+
+$font-regular-size:1.3rem;
+
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-size: $font-regular-size;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    &__list{
+        width: 18%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.4rem 3rem;
+    }
+    &__link{
+        font-size: $font-regular-size;
+        text-decoration: none;
+        color:$color-dark;
+    }
+    &__grid-menu{
+        font-size: 2rem;
+        color:grey;
+    }
+    &__img{
+        border-radius: 50%;
+    }
+}
+
+
+.hero{
+    width: 100%;
+    height: 77.3vh;
+    text-align: center;
+    padding-top: 7%;
+    &__link{
+        text-decoration: none;
+    }
+   
+}
+
+.search-box{
+    width: 45%;
+    margin: 2% auto;
+    box-shadow: 1px 1px 6px 0 #bbb;
+    border-radius: 24px;
+    height: 46px;
+    &__input{
+        width: 85%;
+        margin: auto;
+        height: 100%;
+        outline: none;
+        border: none;
+    }
+    i{
+        margin: 0 8px;
+        font-size: 1.6rem;
+    }
+}
+
+
+.buttons-box{
+    padding: 1% 0 2% 0;
+    &__btn{
+        padding:8px 16px;
+        margin: 0 4px;
+        line-height: 1.5;
+        letter-spacing: 1.2;
+        border: none;
+        border-radius: 4px;
+        background-color: #f8f9fa;
+        font-size: 1.4rem;
+    }
+}
+
+
+.footer{
+    background-color:  #f2f2f2;
+    font-size: 1.5rem;
+    &__country{       
+        padding: 12px 32px;
+        border: 1px solid #ddd;
+        border-bottom: none;
+        color: $color-grey;
+    }
+    &__nav{    
+        padding: 12px 32px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ddd;
+    }
+    &__link{
+        text-decoration: none;
+        color: $color-grey;
+    }
+    &__item{
+        margin: 0 8px;
+    }
+}

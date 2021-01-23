@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav__list {
+  width: 18%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.4rem 3rem;
+}
+
+.nav__link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000000DE;
+}
+
+.nav__grid-menu {
+  font-size: 2rem;
+  color: grey;
+}
+
+.nav__img {
+  border-radius: 50%;
+}
+
+.hero {
+  width: 100%;
+  height: 77.3vh;
+  text-align: center;
+  padding-top: 7%;
+}
+
+.hero__link {
+  text-decoration: none;
+}
+
+.search-box {
+  width: 45%;
+  margin: 2% auto;
+  -webkit-box-shadow: 1px 1px 6px 0 #bbb;
+          box-shadow: 1px 1px 6px 0 #bbb;
+  border-radius: 24px;
+  height: 46px;
+}
+
+.search-box__input {
+  width: 85%;
+  margin: auto;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+.search-box i {
+  margin: 0 8px;
+  font-size: 1.6rem;
+}
+
+.buttons-box {
+  padding: 1% 0 2% 0;
+}
+
+.buttons-box__btn {
+  padding: 8px 16px;
+  margin: 0 4px;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-size: 1.4rem;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  font-size: 1.5rem;
+}
+
+.footer__country {
+  padding: 12px 32px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  color: #70757a;
+}
+
+.footer__nav {
+  padding: 12px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #ddd;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #70757a;
+}
+
+.footer__item {
+  margin: 0 8px;
+}
+/*# sourceMappingURL=index.css.map */
